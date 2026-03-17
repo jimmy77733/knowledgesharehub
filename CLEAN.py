@@ -8,7 +8,6 @@ def fix_redis_page_issue(file_path):
         content = f.read()
 
     # 1. 核心修復：強制將 Smush 的佔位符替換回原始圖片路徑
-    # 解決黑色區塊：將 data-src 取代 src，並移除 opacity: 0 的樣式
     content = re.sub(r'src="data:image/svg\+xml;base64,[^"]+"', '', content) # 移除透明占位圖
     content = re.sub(r'data-src="([^"]+)"', r'src="\1"', content)
     
@@ -17,8 +16,7 @@ def fix_redis_page_issue(file_path):
     content = re.sub(r'style="[^"]*--smush-placeholder[^"]*"', '', content)
     content = re.sub(r'opacity:\s*0;', 'opacity: 1;', content)
 
-    # 3. 處理 Elementor 嵌套元件在子目錄下的路徑 (針對這篇的 Accordion)
-    # 確保所有 /wp-content 都有加上 /{repo_name}/
+    # 3. 處理 Elementor 嵌套元件在子目錄下的路徑
     content = content.replace('src="/wp-content/', f'src="/{repo_name}/wp-content/')
     content = content.replace('href="/wp-content/', f'href="/{repo_name}/wp-content/')
     content = content.replace('data-srcset="/wp-content/', f'data-srcset="/{repo_name}/wp-content/')
@@ -35,4 +33,4 @@ for root, dirs, files in os.walk('.'):
         if file.endswith('.html'):
             fix_redis_page_issue(os.path.join(root, file))
 
-print("Redis 頁面與 Smush 黑色區塊修復完成！")
+print("黑色區塊修復完成！")
