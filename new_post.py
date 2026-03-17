@@ -29,6 +29,9 @@ def repo_name_from_cwd() -> str:
     return os.path.basename(os.getcwd())
 
 
+REPO_NAME: str = os.environ.get("REPO_NAME") or repo_name_from_cwd()
+
+
 def render_button(text: str, url: str) -> str:
     return (
         f'<div class="elementor-widget elementor-widget-button">'
