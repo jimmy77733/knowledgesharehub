@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://knowledgesharehub.com/sitemap_index.xml
+Sitemap: https://jimmy77733.github.io/knowledgesharehub/sitemap_index.xml

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'generateblocks';
-  src:  url('/wp-content/plugins/generateblocks/assets/fonts/generateblocks.eot');
-  src:  url('/wp-content/plugins/generateblocks/assets/fonts/generateblocks.eot#iefix') format('embedded-opentype'),
-    url('/wp-content/plugins/generateblocks/assets/fonts/generateblocks.ttf') format('truetype'),
-    url('/wp-content/plugins/generateblocks/assets/fonts/generateblocks.woff') format('woff'),
-    url('/wp-content/plugins/generateblocks/assets/fonts/generateblocks.svg') format('svg');
+  src:  url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/generateblocks/assets/fonts/generateblocks.eot');
+  src:  url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/generateblocks/assets/fonts/generateblocks.eot#iefix') format('embedded-opentype'),
+    url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/generateblocks/assets/fonts/generateblocks.ttf') format('truetype'),
+    url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/generateblocks/assets/fonts/generateblocks.woff') format('woff'),
+    url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/generateblocks/assets/fonts/generateblocks.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

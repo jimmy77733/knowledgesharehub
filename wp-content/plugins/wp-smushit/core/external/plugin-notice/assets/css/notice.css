@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'wpmudev-close-icon';
-    src:  url('/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.eot?v4kr59');
-    src:  url('/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.eot?v4kr59#iefix') format('embedded-opentype'),
-    url('/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.woff2?v4kr59') format('woff2'),
-    url('/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.ttf?v4kr59') format('truetype'),
-    url('/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.woff?v4kr59') format('woff'),
-    url('/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.svg?v4kr59#wpmudev-close-icon') format('svg');
+    src:  url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.eot?v4kr59');
+    src:  url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.eot?v4kr59#iefix') format('embedded-opentype'),
+    url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.woff2?v4kr59') format('woff2'),
+    url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.ttf?v4kr59') format('truetype'),
+    url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.woff?v4kr59') format('woff'),
+    url('https://jimmy77733.github.io/knowledgesharehub/wp-content/plugins/wp-smushit/core/external/plugin-notice/assets/fonts/wpmudev-close-icon.svg?v4kr59#wpmudev-close-icon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
